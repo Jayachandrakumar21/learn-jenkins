@@ -1,0 +1,11 @@
+#created by : Jayachandra_kumar
+pipeline {
+  agent any
+  stages{
+    stage ('Hello') {
+       steps{
+        echo 'Hello World'
+       }
+    }
+  }
+}
