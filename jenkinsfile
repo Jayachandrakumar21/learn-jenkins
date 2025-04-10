@@ -4,7 +4,7 @@ pipeline {
         stage('Build') {
             steps {
               script{
-                sh 'This is from build stage'
+                sh "This is from build stage"
               }
               
             }
@@ -12,14 +12,14 @@ pipeline {
         stage('Test') {
             steps {
               script{
-                sh 'This is from test stage'
+                sh "This is from Test stage"
               }
             }
         }
         stage('Deploy') {
             steps {
               script{
-                sh 'This is from deploy stage'
+                sh "This is from deploy stage"
               }
             }
         }
