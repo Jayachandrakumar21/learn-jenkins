@@ -1,12 +1,22 @@
 #created by : Jayachandra_kumar
-#sample jenkin job 
+#sample jenkin pipeline
 pipeline {
-  agent any
-  stages{
-    stage ('Hello') {
-       steps{
-        echo 'Hello World'
-       }
+    agent any
+    stages {
+        stage('Build') {
+            steps {
+                //
+            }
+        }
+        stage('Test') {
+            steps {
+                //
+            }
+        }
+        stage('Deploy') {
+            steps {
+                //
+            }
+        }
     }
-  }
 }
