@@ -8,7 +8,9 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh '"This is from test stage"'
+              script{
+                echo "This is from test stage"
+              }
             }
         }
         stage('Deploy') {
