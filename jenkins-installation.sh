@@ -1,3 +1,5 @@
+Created by : Jayachandra_kumar
+Topic : Jenkins installation
 #!/bin/bash
 sudo curl -o /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
